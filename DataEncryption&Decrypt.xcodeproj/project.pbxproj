@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F290A4F1E83A5F10094DDC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F290A4E1E83A5F10094DDC7 /* main.m */; };
+		4F290A571E83A6080094DDC7 /* openPlatformEncrytion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F290A561E83A6080094DDC7 /* openPlatformEncrytion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F290A491E83A5F10094DDC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F290A4B1E83A5F10094DDC7 /* DataEncryption&Decrypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataEncryption&Decrypt"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F290A4E1E83A5F10094DDC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F290A551E83A6080094DDC7 /* openPlatformEncrytion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openPlatformEncrytion.h; sourceTree = "<group>"; };
+		4F290A561E83A6080094DDC7 /* openPlatformEncrytion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openPlatformEncrytion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F290A481E83A5F10094DDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F290A421E83A5F10094DDC7 = {
+			isa = PBXGroup;
+			children = (
+				4F290A4D1E83A5F10094DDC7 /* DataEncryption&Decrypt */,
+				4F290A4C1E83A5F10094DDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F290A4C1E83A5F10094DDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F290A4B1E83A5F10094DDC7 /* DataEncryption&Decrypt */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F290A4D1E83A5F10094DDC7 /* DataEncryption&Decrypt */ = {
+			isa = PBXGroup;
+			children = (
+				4F290A551E83A6080094DDC7 /* openPlatformEncrytion.h */,
+				4F290A561E83A6080094DDC7 /* openPlatformEncrytion.m */,
+				4F290A4E1E83A5F10094DDC7 /* main.m */,
+			);
+			path = "DataEncryption&Decrypt";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F290A4A1E83A5F10094DDC7 /* DataEncryption&Decrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F290A521E83A5F10094DDC7 /* Build configuration list for PBXNativeTarget "DataEncryption&Decrypt" */;
+			buildPhases = (
+				4F290A471E83A5F10094DDC7 /* Sources */,
+				4F290A481E83A5F10094DDC7 /* Frameworks */,
+				4F290A491E83A5F10094DDC7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DataEncryption&Decrypt";
+			productName = "DataEncryption&Decrypt";
+			productReference = 4F290A4B1E83A5F10094DDC7 /* DataEncryption&Decrypt */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F290A431E83A5F10094DDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hancc;
+				TargetAttributes = {
+					4F290A4A1E83A5F10094DDC7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WU2WFZ2B66;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F290A461E83A5F10094DDC7 /* Build configuration list for PBXProject "DataEncryption&Decrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F290A421E83A5F10094DDC7;
+			productRefGroup = 4F290A4C1E83A5F10094DDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F290A4A1E83A5F10094DDC7 /* DataEncryption&Decrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F290A471E83A5F10094DDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F290A571E83A6080094DDC7 /* openPlatformEncrytion.m in Sources */,
+				4F290A4F1E83A5F10094DDC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F290A501E83A5F10094DDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F290A511E83A5F10094DDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F290A531E83A5F10094DDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F290A541E83A5F10094DDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F290A461E83A5F10094DDC7 /* Build configuration list for PBXProject "DataEncryption&Decrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F290A501E83A5F10094DDC7 /* Debug */,
+				4F290A511E83A5F10094DDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F290A521E83A5F10094DDC7 /* Build configuration list for PBXNativeTarget "DataEncryption&Decrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F290A531E83A5F10094DDC7 /* Debug */,
+				4F290A541E83A5F10094DDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F290A431E83A5F10094DDC7 /* Project object */;
+}
